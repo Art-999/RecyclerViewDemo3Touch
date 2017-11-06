@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo3Touch</string>
+    <string-array name="countries">
+        <item>Armenia</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Cuba</item>
+    </string-array>
+</resources>
