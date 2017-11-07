@@ -2,6 +2,7 @@ package com.example.arturmusayelyan.recyclerviewdemo3touch;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -24,6 +25,10 @@ public class RecyclerView2 extends AppCompatActivity {
         for (int i = 0; i < 10; i++) {
             resourciesList.add(new SingleRow(titlesArray[i], flagsArray[i]));
         }
+
+        MyCustomAdapter2 adapter = new MyCustomAdapter2(this, resourciesList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }
 }
