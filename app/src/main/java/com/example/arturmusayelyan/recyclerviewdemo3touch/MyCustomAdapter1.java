@@ -15,6 +15,7 @@ import java.util.List;
  * Created by artur.musayelyan on 06/11/2017.
  */
 
+// chish gzevov sarqum enq interface ev nor heto imlements enq anum dranic
 public class MyCustomAdapter1 extends RecyclerView.Adapter<MyCustomAdapter1.MyViewHolder> {
     Context context;
     List<SingleRow> dataList = Collections.emptyList();
@@ -73,7 +74,7 @@ public class MyCustomAdapter1 extends RecyclerView.Adapter<MyCustomAdapter1.MyVi
 
         @Override
         public void onClick(View view) {
-            clickListener.itemClicked(view, getAdapterPosition());
+            clickListener.itemClicked(view,getAdapterPosition());
         }
     }
 }

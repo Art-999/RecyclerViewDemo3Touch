@@ -16,6 +16,7 @@ import java.util.List;
  * Created by artur.musayelyan on 06/11/2017.
  */
 
+// click-nere dnum enq adapteri mej
 public class MyCustomAdapter2 extends RecyclerView.Adapter<MyCustomAdapter2.MyViewHolder> {
     Context context;
     List<SingleRow> dataList = Collections.emptyList();
@@ -77,7 +78,7 @@ public class MyCustomAdapter2 extends RecyclerView.Adapter<MyCustomAdapter2.MyVi
 //                }
 //            });
 
-            view.setOnClickListener(this);
+            view.setOnClickListener(this);//3-rd tarberak
         }
 
         @Override
